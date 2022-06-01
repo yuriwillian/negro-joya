@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negro Joya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/"><img src="/logo.png"></a>
+        <nav>
+            <a href="#formulario" id="destaque"><strong>Agende um Show!</strong></a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div>
+            <img src="/fotoNj2.png">
+        </div>
+        <a href="#formulario"><input type="button" value="Agende um Show!" class="btnPrincipal"></a>
+    </section>
+
+    <section>
+        <a href="https://www.flaticon.com/br/icones-gratis/spotify" title="spotify ícones"></a>
+    </section>
+
+    <form action="https://api.staticforms.xyz/submit" method="post"  id="formulario">
+	    <input type="hidden" name="accessKey" value="8fc7ac58-336b-43de-8bc9-2b39c2fc658c">
+        <input type="hidden" name="subject" value="CLIENTE PREENCHEU FORMULARIO" />
+	    <h1>Preencha os dados para agendar um show:</h1>
+        <br>
+        <p>Nome:</p>
+        <input type="text" name="name"  placeholder="Digite seu nome aqui" required>
+        <p>Telefone:</p>
+        <input type="number" name="phone"  placeholder="Digite seu telefone" required>
+        <p>Email:</p>
+        <input type="email" name="email"  placeholder="Digite seu melhor email :)" required>
+        <br><br>
+        <input type="submit" value="Agendar um show!" id="submit">
+    </form>
+
+    <footer>
+        <p>&copy;Negro Joya</p>
+    </footer>
+</body>
+</html>
