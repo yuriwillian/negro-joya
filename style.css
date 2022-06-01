@@ -88,3 +88,11 @@ footer {
     background-color: white;
 }
 
+.obrigado {
+    text-align: center;
+}
+
+.obrigado h1 {
+    font-family: Bungee;	
+    color: white;
+}
