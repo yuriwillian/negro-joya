@@ -85,7 +85,11 @@ a#destaque {
 }
 footer {
     margin-top: 50px;
+    padding: 20px;
+    text-align: center;
     background-color: white;
+    color: black;
+    font-family: Bungee;
 }
 
 .obrigado {
@@ -94,9 +98,12 @@ footer {
 }
 
 .obrigado h1 {
-    color: white;
+    background-color: white;
+    color: black;
+    font-size: 25pt;
 }
 
 .obrigado p {
     color: white;
+    font-size: 15pt;
 }
