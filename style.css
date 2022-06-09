@@ -33,6 +33,7 @@ a#destaque {
 
 .home {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .btnPrincipal {
@@ -45,7 +46,6 @@ a#destaque {
     color: black;
     font-size: 20pt;
     font-family: Bungee;
-    margin-bottom: 50px;
 }
 
 #formulario {
